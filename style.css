@@ -1,0 +1,33 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans:wght@500;600;700;800&family=Poppins:ital,wght@0,100;0,500;0,800;0,900;1,500&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Slab:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.carousel-inner img {
+    object-fit: cover;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+
+@media (max-width:750px) {
+    .carousel-caption{
+        margin-top: 120px;
+    }
+    .carousel-caption h1{
+    margin-top: 30px ;  
+    font-size: 20px;
+    line-height: 1;
+    }
+    .carousel-caption p{
+       font-size: 10px;
+       line-height: 1;
+    }
+}
