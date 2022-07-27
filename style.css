@@ -11,14 +11,19 @@ body{
 }
 .carousel-inner img {
     object-fit: cover;
+    filter: brightness(50%);
+    height: 100vh;
 }
 .carousel-caption {
-    background: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0,0,0,0.3);
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
 }
 
 
 @media (max-width:750px) {
-    .carousel-caption{
+    /* .carousel-caption{
         margin-top: 120px;
     }
     .carousel-caption h1{
@@ -29,5 +34,8 @@ body{
     .carousel-caption p{
        font-size: 10px;
        line-height: 1;
-    }
+    } */
+    /* .carousel-caption img{
+        height: 30vh;
+    } */
 }
