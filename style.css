@@ -20,22 +20,3 @@ body{
     transform: translateY(-50%);
     bottom: initial;
 }
-
-
-@media (max-width:750px) {
-    /* .carousel-caption{
-        margin-top: 120px;
-    }
-    .carousel-caption h1{
-    margin-top: 30px ;  
-    font-size: 20px;
-    line-height: 1;
-    }
-    .carousel-caption p{
-       font-size: 10px;
-       line-height: 1;
-    } */
-    /* .carousel-caption img{
-        height: 30vh;
-    } */
-}
