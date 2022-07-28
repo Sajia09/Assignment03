@@ -20,7 +20,8 @@ body{
     transform: translateY(-50%);
     bottom: initial;
 }
-.carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
+/* carousel-indicators */
+.c-prev,
+.c-next  {
     filter: invert(100%);
 }
